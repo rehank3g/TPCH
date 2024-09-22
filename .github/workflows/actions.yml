@@ -2,7 +2,7 @@ name: TATAPLAY Origin Generator
 
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 0 * * 0"
   push:
     branches:
       - master
