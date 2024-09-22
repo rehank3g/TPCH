@@ -60,7 +60,7 @@ def generate_origin():
 
             for key, value in source_data.items():
                 if "#v2" in str(value):
-                    origin_source_data[key] = decrypt_source_url(value)
+                    origin_source_data[key] = decrypt_source_url(value)value).split("?hdnea=")[0]
 
             origin_channel_data["streamData"] = origin_source_data
             origin_data[index] = origin_channel_data
